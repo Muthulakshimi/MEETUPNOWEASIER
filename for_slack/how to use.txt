@@ -1,0 +1,15 @@
+first of all
+
+go to ngrok and put the port 5000
+ :command:- ngrok htttp 5000
+
+then in slack api put the url 
+provided by the ngrok in to the events and sub 
+
+loc events subscriotion tab enavle events and past thte url
+
+ code:-   url/events
+
+ then in the oauth and peermission restaet the bot
+
+ reinstall the bot
