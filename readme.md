@@ -17,3 +17,5 @@
 **<p>How have we used AWS:** We have used AWS Lambda to initiate email module as shown below in the webpage pic. We'd be including the other social media API's using lambda in the future. We have triggered this feature with the API Gateway which uses Rest API, then we run the Lambda service in response to events tp automatically manage the computing resources needed by it to execute the mail. </p>
   
   <a href="https://drive.google.com/uc?export=view&id=1EwvkeNA76gT2UdtejzDOMJLgdc3ez0zl"><img src="https://drive.google.com/uc?export=view&id=1EwvkeNA76gT2UdtejzDOMJLgdc3ez0zl" style="width: 650px; max-width: 100%; height: auto" title="Click to access picture" />
+
+Hosted link: https://main.d24kz4nq8wxzap.amplifyapp.com/
