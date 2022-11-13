@@ -15,8 +15,7 @@ def for_d(DISCORD_TOKEN,msg,file):
             return"""
     
         #if message.content.startswith('hello'):
-        await message.channel.send('Hello!')
-        sleep(2)
+        await message.channel.send(msg)
         await message.channel.send(file=discord.File(file))
 
         client.close()

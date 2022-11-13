@@ -20,7 +20,7 @@ def boss_the(text=None,img=None):
             text,
             img)
         #sleep(10)
-    fun1()
+    #fun1()
     def fun2():
         ta.for_t(
             os.getenv('TWITTER_API_KEY'),
@@ -46,12 +46,18 @@ def boss_the(text=None,img=None):
     c=Thread(target=fun3)
     d=Thread(target=fun4)
     #a.start()
-    #b.start()
+    b.start()
     #c.start()
-    #d.start()
+    d.start()
+    try:
+        fun1()
+    except:
+        fun3()
+    finally:
+        print('done execution')
 
 
 
 
 
-boss_the(text,img)
+#boss_the(text,img)

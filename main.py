@@ -28,7 +28,7 @@ def getFile ():
      initialdir=os.getcwd(),
      title = "Ouvrez un fichier pickle",
      filetypes = (
-       ("images","*.png"),
+       ("images","*.jpeg"),
        ("all files","*.*")
      )
     )
