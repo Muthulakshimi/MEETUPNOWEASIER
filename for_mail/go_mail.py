@@ -18,7 +18,7 @@ EMAIL_ADDRESS = os.getenv('EMAIL_USER')
 EMAIL_PASSWORD = os.getenv('EMAIL_PASS')
 
 def for_e(message,img):
-    contacts = ['poorvikjaintm@gmail.com', '20is032@gmail.com']
+    contacts = ['muthulakshimipon@gmail.com', '#&Muthulakshimipon@123']
 
     msg = EmailMessage()
     msg['Subject'] = 'Check out Bronx as a puppy!'
